@@ -36,6 +36,13 @@
                           answer:     1
                         },
 
+
+                          {
+                                q:  ' my name is ',
+                          options:  ['razan','ra zan','rasan','nth'],
+                          answer:     1
+                        },
+
                           ],
                           
                            
@@ -57,6 +64,7 @@
                         else
                         {
                         quisBox.innerHTML="Quiz Over , well done";
+                        // +namee.value() ;
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";

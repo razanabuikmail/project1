@@ -24,6 +24,7 @@
  	margin-left: -266px;
  	background-color: #b5838d;
  	color: #ffe7ab ;
+ 	border-radius: 8px;
  }
 
 .name
@@ -119,4 +120,3 @@ flex-wrap:  wrap;
 	color:#ffffff;
 
 }
-
