@@ -1,6 +1,7 @@
  
  body{
- background-color: #7b768212;
+ 
+ background:radial-gradient(circle at 100%, rgb(255, 230, 173) 0%, rgba(202, 192, 255, 0.7) 100%)
  
  
 }
@@ -12,10 +13,28 @@
 }
 
  h1{
- 	color: #9d8189;
+ 	color: #96364a;
  	font-family: sans-serif;
  	font-size: 25px ;
  	text-align: center;
+    text-decoration-line: underline;
+ }
+ #input
+ {
+ 	margin-left: -266px;
+ 	background-color: #b5838d;
+ 	color: #ffe7ab ;
+ }
+
+.name
+{
+	font-family: sans-serif;
+ 	text-align:  center; 
+ 	margin-right: 299px ;
+ 	color: #96364a;
+ 	font-size: 20px ;
+ 	margin-left: 375px;
+ 	text-decoration-line: underline;
  }
 
 
@@ -23,20 +42,19 @@
 	 
 	height: 400px ;
 	width: 650px ;
-	background-color: white ;
 	margin: 30px auto ;
 	border-radius:  8px ;
 	padding: 25px ;
 	background-image: url(Untitled-1.jpg);
-	opacity: 0.9;
+	 
 }
 
 
 .quiz .question{	
 	padding: 15px;
-	background-color: #6d6875;
+	background-color: #4a4550;
 	border-radius: 8px;
-	color:#ffffff;
+	color:#ffe7ab;
 	font-size:20px;
 	float: left;
 	width: 100%;
@@ -46,7 +64,7 @@
 
 .quiz .options
 {
-float: left;
+float: right;
 width: 100% ;
 } 
 
@@ -82,31 +100,17 @@ flex-wrap:  wrap;
 	padding:25px 0px;
 }
 
-.quiz .score .next {
-	width: 40% ;
-	float: left ;
-}
+ 
 
-.quiz .score .next button {
-	padding:  10px  30px ;
-	color:white;
-	background-color: #e5989b;
-	border-radius:8px;
-	font-size: 15px;
-	cursor: pointer;
-	box-shadow: 0px 3px 0px #6d6875;
-
-}
  
 .quiz .score .score-card{
-	width: 60%;
-	float: left;
-}
-.quiz .score .score-card{
-	font-size: 20px;
-	color:black;
-	line-height: 50px;
-	text-transform: uppercase;
+     margin-left: 150px;
+    font-style: oblique;
+    text-decoration-line: underline;
+    font-size: 39px;
+    line-height: 50px;
+    text-transform: uppercase;
+
 }
 .quiz .score .score-card span{
 	background-color: #e79fa3;
